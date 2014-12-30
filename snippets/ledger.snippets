@@ -1,0 +1,21 @@
+snippet now
+	`strftime("%m/%d")`
+snippet Exp
+	Expenses:
+snippet groc
+	Expenses:Groceries                                  $${1}
+snippet cons
+	Expenses:Household:Consumables                      $${1}
+snippet hb
+	Expenses:Personal Care:Health and Beauty			$${1}
+snippet abc
+	Assets:Bank:Checking
+snippet lm
+	Liabilities:Mastercard
+snippet abs
+	Assets:Bank:Savings
+# Ledger <http://ledger-cli.org/>
+snippet ent
+	`strftime("%m/%d")` ${1:transaction}
+	    ${2:account}    ${3:value}
+	    ${0:account}

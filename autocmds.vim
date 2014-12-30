@@ -1,0 +1,19 @@
+if has("autocmd")
+
+    " Ledger files with .ldg extensions
+    autocmd BufNewFile,BufRead *.ldg,*.ledger  set ft=ledger tw=90
+    autocmd BufNewFile,BufRead *.html,*.handlebars  set expandtab ts=2 sw=2
+    autocmd BufNewFile,BufRead *.handlebars set ft=html.javascript.css
+    autocmd BufNewFile,BufRead *.txt set tw=72 fo+=t
+    autocmd BufNewFile,BufRead *.html,*.css set fdm=indent
+
+if has("gui_running")
+    autocmd VimEnter * NERDTree
+    autocmd VimEnter * wincmd p
+endif
+
+    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+    autocmd BufNewFile,BufRead *.java set fdm=syntax
+    autocmd Filetype java set makeprg=javac\ %
+endif
