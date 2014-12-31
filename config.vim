@@ -93,6 +93,10 @@ set t_Co=256
 set term=screen-256color
 highlight Folded term=bold ctermbg=233 gui=bold guibg=#151515
 
+highlight ColorColumn ctermbg=9 guibg=red
+call matchadd('ColorColumn', '\%81v', 100)
+
+
 
 "if $TERM =~ "-256color"
 "endif
