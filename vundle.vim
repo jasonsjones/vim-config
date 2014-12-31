@@ -62,6 +62,3 @@ Plugin 'mattn/emmet-vim'
 
 " jellybeans colorscheme
 Plugin 'nanotech/jellybeans.vim'
-
-" tcomment plugin
-Plugin 'tomtom/tcomment_vim'
