@@ -40,7 +40,9 @@ map! <F4>  <ESC>gqqj
 nmap <F5>  kgqj
 map! <F5>  <ESC>kgqj
 
-nnoremap <F6> :buffers<CR>:buffers<Space>
+nnoremap <F6> :buffers<CR>:buffer<Space>
+nnoremap <F7> :MBEToggle<CR>
+
 
 " mapping to clear transaction in ledger
 nmap <F8> i*<ESC>
