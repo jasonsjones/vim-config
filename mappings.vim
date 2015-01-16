@@ -23,6 +23,8 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 map <C-h> <C-w>h
 
+nmap <F2> :call ToggleSpell( )<CR>
+imap <F2> <ESC>:call ToggleSpell( )<CR>a
 
 "  --------------------------
 "      fix formatting
