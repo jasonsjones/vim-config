@@ -4,7 +4,7 @@ if has("autocmd")
     autocmd BufNewFile,BufRead *.ldg,*.ledger  set ft=ledger tw=90
     autocmd BufNewFile,BufRead *.html,*.handlebars  set expandtab ts=2 sw=2
     autocmd BufNewFile,BufRead *.handlebars set ft=html.javascript.css
-    autocmd BufNewFile,BufRead *.ejs set ft=html.javascript.css
+    autocmd BufNewFile,BufRead *.ejs set ft=html
     autocmd BufNewFile,BufRead *.txt set tw=72 fo+=t
     autocmd BufNewFile,BufRead *.html,*.css set fdm=indent
 
