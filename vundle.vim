@@ -34,6 +34,9 @@ Plugin 'tpope/vim-haml'
 " for html5 syntax and autocomplete for tags
 Plugin 'othree/html5.vim'
 
+" for json syntax highlighting
+Plugin 'elzr/vim-json'
+
 " syntax file for scss (syntacally...)
 Plugin 'cakebaker/scss-syntax.vim'
 
