@@ -7,14 +7,28 @@ if has("autocmd")
     autocmd BufNewFile,BufRead *.ejs set ft=html
     autocmd BufNewFile,BufRead *.txt set tw=72 fo+=t
     autocmd BufNewFile,BufRead *.html,*.css set fdm=indent
+    autocmd BufNewFile,BufRead *.json set ft=json
 
-if has("gui_running")
-    autocmd VimEnter * NERDTree
-    autocmd VimEnter * wincmd p
-endif
 
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
     autocmd BufNewFile,BufRead *.java set fdm=syntax
     autocmd Filetype java set makeprg=javac\ %
 endif
+
+if has("gui_running")
+    autocmd VimEnter * NERDTree
+    autocmd VimEnter * wincmd p
+endif
+
+augroup json_autocmd
+    autocmd!
+    autocmd FileType json set autoindent
+    autocmd FileType json set formatoptions=tcq2l
+    autocmd FileType json set textwidth=78 shiftwidth=2
+    autocmd FileType json set softtabstop=2 tabstop=2
+    autocmd FileType json set expandtab
+    autocmd FileType json set foldmethod=syntax
+augroup END
+
+
