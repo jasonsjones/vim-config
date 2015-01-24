@@ -11,14 +11,14 @@ snippet fun
 	}
 # Anonymous Function
 snippet f
-	function(${1}) {
+	function (${1}) {
 		${0}
 	}${2}
 # Immediate function
 snippet (f
 	(function (${1}) {
 		${0}
-	}(${2}));
+	})(${2});
 # Object Method
 snippet :f
 	${1:method_name}: function (${2:attribute}) {
