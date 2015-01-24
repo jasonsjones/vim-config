@@ -9,6 +9,8 @@ if has("autocmd")
     autocmd BufNewFile,BufRead *.html,*.css set fdm=indent
     autocmd BufNewFile,BufRead *.json set ft=json
 
+    autocmd BufWritePre * :%s/\s\+$//e
+
 
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
