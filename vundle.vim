@@ -63,5 +63,8 @@ Plugin 'gregsexton/MatchTag'
 " emmet plugin for vim
 Plugin 'mattn/emmet-vim'
 
+" fuzzy finder ctrl-p
+Plugin 'kien/ctrlp.vim'
+
 " jellybeans colorscheme
 Plugin 'nanotech/jellybeans.vim'

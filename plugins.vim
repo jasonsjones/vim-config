@@ -25,3 +25,6 @@ let g:instant_markdown_autostart=0
 " ============================
 "let g:snipMate = {}
 "let g:snipMate['snippet_dirs'] = funcref#Function('return["~/.vim/snippets"]')
+"
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'

@@ -42,7 +42,7 @@ map! <F4>  <ESC>gqqj
 nmap <F5>  kgqj
 map! <F5>  <ESC>kgqj
 
-nnoremap <F6> :buffers<CR>:buffer<Space>
+nnoremap <F6> :buffers<CR>:b
 nnoremap <F7> :MBEToggle<CR>
 
 
