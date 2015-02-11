@@ -2,7 +2,7 @@ if has("autocmd")
 
     " Ledger files with .ldg extensions
     autocmd BufNewFile,BufRead *.ldg,*.ledger  set ft=ledger tw=90
-    autocmd BufNewFile,BufRead *.html,*.handlebars  set expandtab ts=2 sw=2
+    autocmd BufNewFile,BufRead *.html,*.handlebars  set expandtab ts=4 sw=4
     autocmd BufNewFile,BufRead *.handlebars set ft=html.javascript.css
     autocmd BufNewFile,BufRead *.ejs set ft=html
     autocmd BufNewFile,BufRead *.txt set tw=72 fo+=t
@@ -31,6 +31,11 @@ augroup json_autocmd
     autocmd FileType json set softtabstop=2 tabstop=2
     autocmd FileType json set expandtab
     autocmd FileType json set foldmethod=syntax
+augroup END
+
+augroup magic
+    autocmd!
+    autocmd BufWritePost ~/.vim/*.vim source ~/.vimrc
 augroup END
 
 
