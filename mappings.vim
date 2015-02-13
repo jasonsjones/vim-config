@@ -18,6 +18,8 @@ nmap <leader>l :set list!<CR>
 nmap <CR> o<ESC>
 nnoremap Y y$
 
+imap jj <ESC>
+
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
