@@ -94,7 +94,7 @@ set term=screen-256color
 highlight Folded term=bold ctermbg=233 gui=bold guibg=#151515
 
 highlight ColorColumn ctermbg=9 guibg=red
-call matchadd('ColorColumn', '\%81v', 100)
+call matchadd('ColorColumn', '\%91v', 100)
 
 
 
