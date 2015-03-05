@@ -68,3 +68,5 @@ Plugin 'kien/ctrlp.vim'
 
 " jellybeans colorscheme
 Plugin 'nanotech/jellybeans.vim'
+
+Plugin 'edkolev/tmuxline.vim'
