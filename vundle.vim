@@ -69,4 +69,7 @@ Plugin 'kien/ctrlp.vim'
 " jellybeans colorscheme
 Plugin 'nanotech/jellybeans.vim'
 
+" solarized colorscheme
+Plugin 'altercation/vim-colors-solarized'
+
 Plugin 'edkolev/tmuxline.vim'
