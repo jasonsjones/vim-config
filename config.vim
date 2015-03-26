@@ -102,8 +102,8 @@ call matchadd('ColorColumn', '\%91v', 100)
 " GUI {{{2
 if has("gui_running")
     set lines=75
-    set columns=200
-    set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 8
+    set columns=150
+    set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
     winpos 15 25
     set guioptions-=r
     set guioptions-=T
