@@ -88,7 +88,7 @@ set foldcolumn=2        " allow 2 spaces for foldcolumn on left side
 
 " Colors {{{2
 set background=dark
-colorscheme solarized
+colorscheme jellybeans
 set t_Co=256
 set term=screen-256color
 
