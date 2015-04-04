@@ -40,6 +40,9 @@ Plugin 'elzr/vim-json'
 " syntax file for scss (syntacally...)
 Plugin 'cakebaker/scss-syntax.vim'
 
+" syntax file for less (css preprocessor)
+Plugin 'groenewege/vim-less'
+
 " for snipmate plugin
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
