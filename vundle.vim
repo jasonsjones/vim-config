@@ -70,3 +70,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'flazz/vim-colorschemes'
 
 Plugin 'edkolev/tmuxline.vim'
+
+" git gutter plugin to track changes
+Plugin 'airblade/vim-gitgutter'
