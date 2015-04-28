@@ -58,7 +58,10 @@ Plugin 'ledger/vim-ledger'
 Plugin 'Raimondi/delimitMate'
 
 " Enhanced javascript syntax file
-Plugin 'pangloss/vim-javascript'
+"Plugin 'pangloss/vim-javascript'
+
+" Yet another Javascript Syntax
+Plugin 'othree/yajs.vim'
 
 " matches html tag pairs
 Plugin 'gregsexton/MatchTag'
