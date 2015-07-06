@@ -75,6 +75,9 @@ Plugin 'kien/ctrlp.vim'
 " comprehensive list of colorschemes
 Plugin 'flazz/vim-colorschemes'
 
+" Seti colorscheme
+Plugin 'trusktr/seti.vim'
+
 Plugin 'edkolev/tmuxline.vim'
 
 " git gutter plugin to track changes
