@@ -91,7 +91,7 @@ set background=dark
 colorscheme seti
 set t_Co=256
 set term=screen-256color
-highlight NonText ctermbg=black
+highlight NonText ctermbg=16 guibg=#151718
 
 highlight ColorColumn ctermbg=9 guibg=red
 call matchadd('ColorColumn', '\%91v', 100)
