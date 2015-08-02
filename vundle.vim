@@ -82,3 +82,6 @@ Plugin 'edkolev/tmuxline.vim'
 
 " git gutter plugin to track changes
 Plugin 'airblade/vim-gitgutter'
+
+" Delete all buffers but current/named buffer
+Plugin 'vim-scripts/BufOnly.vim'
