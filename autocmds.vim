@@ -18,17 +18,17 @@ if has("autocmd")
     autocmd Filetype java set makeprg=javac\ %
 endif
 
-if has("gui_running")
+"if has("gui_running")
     autocmd VimEnter * NERDTree
     autocmd VimEnter * wincmd p
-endif
+"endif
 
 augroup json_autocmd
     autocmd!
     autocmd FileType json set autoindent
     autocmd FileType json set formatoptions=tcq2l
-    autocmd FileType json set textwidth=78 shiftwidth=2
-    autocmd FileType json set softtabstop=2 tabstop=2
+    autocmd FileType json set textwidth=78 shiftwidth=4
+    autocmd FileType json set softtabstop=4 tabstop=4
     autocmd FileType json set expandtab
     autocmd FileType json set foldmethod=syntax
 augroup END
