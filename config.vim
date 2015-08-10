@@ -65,6 +65,7 @@ set cinwords=if,else,while,do,for,switch,case
 syntax enable                  " enable syntax
 " }}}
 " Visual {{{1
+set encoding=utf8
 set number     " Display line numbers
 set showmatch  " Show matching brackets
 set matchtime=5  " Bracket blinking

@@ -85,3 +85,6 @@ Plugin 'airblade/vim-gitgutter'
 
 " Delete all buffers but current/named buffer
 Plugin 'vim-scripts/BufOnly.vim'
+
+" add font icons
+Plugin 'ryanoasis/vim-devicons'
