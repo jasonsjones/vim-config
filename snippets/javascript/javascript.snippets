@@ -18,8 +18,10 @@ snippet f
 		${0}
 	}${2}
 # Immediate function
-snippet (f
+snippet iife
 	(function (${1}) {
+		'use strict';
+
 		${0}
 	}(${2}));
 # Object Method
