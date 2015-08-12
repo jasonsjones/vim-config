@@ -88,3 +88,6 @@ Plugin 'vim-scripts/BufOnly.vim'
 
 " add font icons
 Plugin 'ryanoasis/vim-devicons'
+
+" plugin for NERDTree showing git status flags
+Plugin 'Xuyuanp/nerdtree-git-plugin'
