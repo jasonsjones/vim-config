@@ -91,3 +91,6 @@ Plugin 'ryanoasis/vim-devicons'
 
 " plugin for NERDTree showing git status flags
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+
+" plugin for ctrl space, a comprhensive solution for vim editing
+Plugin 'szw/vim-ctrlspace'
