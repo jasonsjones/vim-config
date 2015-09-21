@@ -81,7 +81,7 @@ snippet doct
 	"http://www.w3.org/TR/html4/loose.dtd">
 # HTML Doctype 5
 snippet doct5
-	<!DOCTYPE HTML>
+	<!DOCTYPE html>
 # XHTML Doctype 1.0 Frameset
 snippet docxf
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
@@ -416,7 +416,7 @@ snippet h6#
 snippet head
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>${1:title}</title>
 		${0}
@@ -456,7 +456,7 @@ snippet html5
 	<html lang="en">
 		<head>
 			<meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>${1:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
 			${2:meta}
