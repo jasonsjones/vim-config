@@ -1,4 +1,7 @@
 # AngularJS Snippets
+# from angular-styleguide (https://github.com/johnpapa/angular-styleguide)
+#
+# AngularJS module
 snippet ngmodule
 	(function () {
 		'use strict';
@@ -8,6 +11,7 @@ snippet ngmodule
 				'${2:dependencies}'
 		]);
 	}());
+# AngularJS controller
 snippet ngcontroller
 	(function () {
 		'use strict';
@@ -25,6 +29,30 @@ snippet ngcontroller
 
 			/********** implementation details *********/
 			function activate() {
+				${0}
+			}
+		}
+	}());
+# AngularJS factory
+snippet ngfactory
+	(function () {
+		'use strict';
+
+		angular
+			.module('${1:module}')
+			.factory('${2:factory}', $2);
+
+		$2.$inject = ['${3:dependencies}'];
+		function $2($3) {
+			var service = {
+				${4:func}: $4
+			};
+
+			return service;
+
+			/********** implementation details *********/
+			function $4() {
+				${0}
 			}
 		}
 	}());
