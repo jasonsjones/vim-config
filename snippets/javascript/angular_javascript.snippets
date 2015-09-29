@@ -3,7 +3,28 @@ snippet ngmodule
 	(function () {
 		'use strict';
 
-		angular.module('${1:module}', [
-			'${2:dependencies}'
+		angular
+			.module('${1:module}', [
+				'${2:dependencies}'
 		]);
+	}());
+snippet ngcontroller
+	(function () {
+		'use strict';
+
+		angular
+			.module('${1:module}')
+			.controller('${2:Controller}Controller', $2Controller);
+
+		$2Controller.$inject = ['${3:dependencies}'];
+		function $2Controller($3) {
+			var vm = this;
+			vm.title = '$2Controller';
+
+			activate();
+
+			/********** implementation details *********/
+			function activate() {
+			}
+		}
 	}());
