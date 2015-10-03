@@ -87,10 +87,10 @@ snippet ngdirective
 		$2.$inject = ['${3:dependencies}'];
 		function $2($3) {
 			var directive = {
-				restrict: 'A',
+				restrict: '${4:EA}',
 				bindToController: true,
-				controller: ${4:Controller},
-				controllerAs: ${5:vm},
+				controller: ${5:Controller},
+				controllerAs: ${6:vm},
 				link: link,
 				scope: {
 
@@ -103,8 +103,27 @@ snippet ngdirective
 			}
 		}
 
-		$4.$inject = ['${6:dependencies}'];
-		function $4($6) {
+		$5.$inject = ['${7:dependencies}'];
+		function $5($7) {
 			${0}
+		}
+	}());
+# AngularJS filter
+snippet ngfilter
+	(function () {
+		'use strict';
+
+		angular
+			.module('${1:module}')
+			.filter('${2:filter}', $2);
+
+		function $2() {
+			return $2Filter;
+
+			/********** implementation details *********/
+			function $2Filter(${3:params}) {
+				return $3;
+
+			}
 		}
 	}());
