@@ -44,9 +44,9 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'groenewege/vim-less'
 
 " for snipmate plugin
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
+"Plugin 'MarcWeber/vim-addon-mw-utils'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'garbas/vim-snipmate'
 
 "Plugin 'honza/vim-snippets'
 
@@ -92,5 +92,3 @@ Plugin 'ryanoasis/vim-devicons'
 " plugin for NERDTree showing git status flags
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
-" plugin for ctrl space, a comprhensive solution for vim editing
-Plugin 'szw/vim-ctrlspace'
