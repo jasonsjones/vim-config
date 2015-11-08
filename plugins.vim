@@ -29,3 +29,14 @@ let g:instant_markdown_autostart=0
 "
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" ============================
+"          UltiSnips
+" ============================
+" Trigger configuration
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" enable g:UltiSnipsEdit split the window
+let g:UltiSnipsEditSplit="horizontal"

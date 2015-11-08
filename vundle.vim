@@ -48,6 +48,9 @@ Plugin 'groenewege/vim-less'
 "Plugin 'tomtom/tlib_vim'
 "Plugin 'garbas/vim-snipmate'
 
+" Ultisnips plugin for extensible snippets
+Plugin 'SirVer/ultisnips'
+
 "Plugin 'honza/vim-snippets'
 
 " for ledger
