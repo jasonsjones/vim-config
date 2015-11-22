@@ -4,6 +4,12 @@ snippet now "Insert date" b
 `date +%m/%d`  $0
 endsnippet
 
+snippet new "Add new transaction" b
+`date +%m/%d`  ${1:payee}
+	Expenses:${2:category}							\$$3
+	$0
+endsnippet
+
 snippet abc "Checking" b
 Assets:Bank:Checking
 endsnippet
@@ -13,11 +19,11 @@ Liabilities:Mastercard
 endsnippet
 
 snippet dine "Dining Out" b
-Expenses:Dining Out 								\$$1
+Expenses:Dining Out                                 \$$1
 endsnippet
 
 snippet groc "Groceries" b
-Expenses:Groceries  								\$$1
+Expenses:Groceries                                  \$$1
 endsnippet
 
 snippet hb "Health & Beauty" b
