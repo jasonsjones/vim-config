@@ -110,6 +110,7 @@ if has("gui_running")
     winpos 15 25
     set guioptions-=r
     set guioptions-=T
+    colorscheme solarized
     "highlight FoldColumn guifg=cyan guibg=#444444
 endif
 " "}}}
