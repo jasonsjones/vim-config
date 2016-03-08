@@ -1,0 +1,36 @@
+snippet doctype "html5 (doctype)" b
+<!DOCTYPE html>
+$0
+endsnippet
+
+snippet // "html comment" b
+<!-- ${1:comment} -->
+endsnippet
+
+snippet head "html head tag" b
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>${1:title}</title>
+	${0}
+</head>
+endsnippet
+
+snippet body "html body tag" b
+<body>
+	${0}
+</body>
+endsnippet
+
+snippet . "class attr"
+class="${1}"
+endsnippet
+
+snippet id "id attr"
+id="${1}"
+endsnippet
+
+snippet alt "alt attr"
+alt="${1}"
+endsnippet
