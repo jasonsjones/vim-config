@@ -73,7 +73,7 @@ Plugin 'gregsexton/MatchTag'
 Plugin 'mattn/emmet-vim'
 
 " fuzzy finder ctrl-p
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " comprehensive list of colorschemes
 Plugin 'flazz/vim-colorschemes'
