@@ -1,4 +1,5 @@
 " =========================================================
+"
 " Author: Jason Jones <jsjones96@gmail.com>
 
 " This .vimrc file is tailored for my personal use.
@@ -84,16 +85,18 @@ set listchars=tab:▸\ ,eol:¬
 " Folding {{{2
 set foldmethod=marker   " By default, use the marker to determine folds
 set foldlevelstart=99   " All folds open by default
-set foldcolumn=2        " allow 2 spaces for foldcolumn on left side
+"set foldcolumn=2        " allow 2 spaces for foldcolumn on left side
+set foldcolumn=0
 " }}}
 
 " Colors {{{2
 set background=dark
-colorscheme seti
-set t_Co=256
-set term=screen-256color
-highlight NonText ctermbg=16 guibg=#151718
-highlight Visual ctermfg=16
+colorscheme snazzy
+"set t_Co=256
+"set term=screen-256color
+"highlight NonText ctermbg=16 guibg=#151718
+"highlight Visual ctermfg=16
+"highlight FoldColumn ctermfg=red ctermbg=16
 
 highlight ColorColumn ctermbg=9 guibg=red
 call matchadd('ColorColumn', '\%91v', 100)

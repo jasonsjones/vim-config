@@ -14,7 +14,8 @@ Plugin 'gmarik/Vundle.vim'
 " My bundles here:
 
 " original repos on github
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
@@ -44,14 +45,13 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'groenewege/vim-less'
 
 " for snipmate plugin
-"Plugin 'MarcWeber/vim-addon-mw-utils'
-"Plugin 'tomtom/tlib_vim'
-"Plugin 'garbas/vim-snipmate'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
 " Ultisnips plugin for extensible snippets
 Plugin 'SirVer/ultisnips'
 
-"Plugin 'honza/vim-snippets'
 
 " for ledger
 Plugin 'ledger/vim-ledger'
@@ -59,9 +59,6 @@ Plugin 'ledger/vim-ledger'
 " for plugin to provide insert mode auto-completion for
 " quotes, parens, brackets, etc
 Plugin 'Raimondi/delimitMate'
-
-" Enhanced javascript syntax file
-"Plugin 'pangloss/vim-javascript'
 
 " Yet another Javascript Syntax
 Plugin 'othree/yajs.vim'
@@ -78,10 +75,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " comprehensive list of colorschemes
 Plugin 'flazz/vim-colorschemes'
 
-" Seti colorscheme
-Plugin 'trusktr/seti.vim'
-
-Plugin 'edkolev/tmuxline.vim'
 
 " git gutter plugin to track changes
 Plugin 'airblade/vim-gitgutter'
@@ -89,9 +82,7 @@ Plugin 'airblade/vim-gitgutter'
 " Delete all buffers but current/named buffer
 Plugin 'vim-scripts/BufOnly.vim'
 
-" add font icons
-Plugin 'ryanoasis/vim-devicons'
-
 " plugin for NERDTree showing git status flags
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+Plugin 'connorholyday/vim-snazzy'

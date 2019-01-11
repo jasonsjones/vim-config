@@ -19,8 +19,8 @@ if has("autocmd")
 endif
 
 "if has("gui_running")
-    autocmd VimEnter * NERDTree
-    autocmd VimEnter * wincmd p
+"    autocmd VimEnter * NERDTree
+"    autocmd VimEnter * wincmd p
 "endif
 
 augroup json_autocmd

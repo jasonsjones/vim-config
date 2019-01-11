@@ -33,7 +33,7 @@ syn region transNorm start=/^[[:digit:]~]/ skip=/^\s/ end=/^/
     \ fold keepend transparent contains=transDate,Metadata,Posting
 syn match transDate /^\d\S\+/ contained
 syn match Metadata /^\s\+;.*/ contained contains=MetadataTag
-syn match Comment /^;.*$/
+syn match Comment /^[;|*#].*$/
 " every space in an account name shall be surrounded by two non-spaces
 " every account name ends with a tab, two spaces or the end of the line
 syn match Account /^\s\+\zs\%(\S \S\|\S\)\+\ze\%([ ]\{2,}\|\t\s*\|\s*$\)/ contained
@@ -63,9 +63,10 @@ highlight default link TagPush Tag
 highlight default link TagKey Type
 highlight default link Amount Number
 highlight default link Account Identifier
- 
+highlight default link Comment Comment
+
 " syncinc is easy: search for the first transaction.
 syn sync clear
 syn sync match ledgerSync grouphere transNorm "^[[:digit:]~]"
- 
+
 let b:current_syntax = "ledger"

@@ -34,9 +34,9 @@ let g:ctrlp_cmd = 'CtrlP'
 "          UltiSnips
 " ============================
 " Trigger configuration
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<c-b>"
+"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " enable g:UltiSnipsEdit split the window
-let g:UltiSnipsEditSplit="horizontal"
+"let g:UltiSnipsEditSplit="horizontal"
