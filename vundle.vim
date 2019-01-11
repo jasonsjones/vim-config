@@ -9,7 +9,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " let Vundle magage Vundle, required!
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " My bundles here:
 
